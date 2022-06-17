@@ -12,7 +12,18 @@ body {
   list-style: none;
 }
 
+.header {
+  display: flex;
+}
+
+.main-navigation {
+  display: flex;
+}
+
 .logotipe {
+  align-self: center;
+  margin-left: 215px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -28,6 +39,11 @@ body {
 }
 
 .site-nav {
+  display: flex;
+  margin-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -53,10 +69,10 @@ body {
   color: #2196f3;
 }
 
-.site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.contacts {
+  display: flex;
+  margin-left: 331px;
+  align-self: center;
 }
 
 .contacts .email {
@@ -133,6 +149,8 @@ body {
 /* Features */
 
 .features {
+  display: flex;
+
   margin-top: 94px;
   margin-bottom: 94px;
   padding-left: 215px;
@@ -190,6 +208,10 @@ body {
   margin-right: 30px;
 }
 
+.what-we-do-img {
+  display: flex;
+}
+
 /* our-team */
 
 .our-team {
@@ -210,6 +232,7 @@ body {
 }
 
 .img-team {
+  display: flex;
   padding-bottom: 94px;
 
   margin: auto;
@@ -309,6 +332,11 @@ body {
   color: #2196f3;
 }
 
+.btn-list {
+  list-style: none;
+  display: flex;
+}
+
 .btn-portfolio {
   font-family: inherit;
   border: 0;
@@ -349,8 +377,9 @@ body {
   color: #757575;
 }
 
-.projects {
+.container {
   width: 1170px;
+  display: flex;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
