@@ -6,23 +6,34 @@ body {
   color: #212121;
 }
 
-.reset {
+h1,
+h2,
+h3,
+p,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.header {
+.header .container {
   display: flex;
+  border-bottom: solid #ececec 1px;
 }
 
 .main-navigation {
   display: flex;
 }
 
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
 .logotipe {
   align-self: center;
-  margin-left: 215px;
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -150,11 +161,11 @@ body {
 
 .features {
   display: flex;
+}
 
+.features.container {
   margin-top: 94px;
   margin-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
 }
 
 .features :not(:last-child) {
@@ -271,8 +282,6 @@ body {
 /* Footer*/
 
 .footer {
-  padding-left: 215px;
-
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -333,8 +342,14 @@ body {
 }
 
 .btn-list {
-  list-style: none;
   display: flex;
+  padding-bottom: 34px;
+  padding-left: 330px;
+}
+
+.main {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .btn-portfolio {
@@ -356,7 +371,7 @@ body {
   color: #fff;
 }
 
-.portfolio-list :not(:last-child) {
+.btn-list :not(:last-child) {
   margin-right: 8px;
 }
 
@@ -377,8 +392,7 @@ body {
   color: #757575;
 }
 
-.container {
-  width: 1170px;
+.projects {
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
