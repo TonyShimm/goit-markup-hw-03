@@ -176,7 +176,7 @@ ul {
   margin-bottom: 94px;
 }
 
-.features :not(:last-child) {
+.feature-list:not(:last-child) {
   margin-right: 40px;
 }
 
@@ -206,7 +206,7 @@ ul {
 /* what-we-do */
 
 .what-we-do-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -351,7 +351,7 @@ img {
 
 .btn-list {
   display: flex;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
   justify-content: center;
 }
 
@@ -390,7 +390,7 @@ img {
 
 .portfolio-description {
   padding: 20px 24px;
-  border: solid #eeeeee 1px;
+  border-bottom: solid #eeeeee 1px;
 }
 
 .project-type {
