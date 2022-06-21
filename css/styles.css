@@ -391,6 +391,8 @@ img {
 .portfolio-description {
   padding: 20px 24px;
   border-bottom: solid #eeeeee 1px;
+  border-right: solid #eeeeee 1px;
+  border-left: solid #eeeeee 1px;
 }
 
 .project-type {
